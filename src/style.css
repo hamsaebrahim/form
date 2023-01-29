@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(180, 134, 224);
+    color: rgb(93, 0, 180);
+}
+
+input[type="text"], input[type="email"] {
+    margin-bottom: 15px;
+    height: 30px;
+    text-indent: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+    background-color: rgb(227, 206, 247);
+    border:1px  solid rgb(93, 0, 180);
+
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 0.75rem;
+    background-color: rgb(227, 206, 247);
+    border:1px  solid rgb(93, 0, 180);
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+textarea {
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    display: block;
+    background-color: rgb(227, 206, 247);
+    border:1px  solid rgb(93, 0, 180);
+}
+form{
+    width: 300px;
+    background-color:  rgb(239, 229, 249);
+    padding: 50px;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    -ms-border-radius:25px;
+    -o-border-radius:25px;
+    margin: auto;
+    box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+fieldset,select ,button{
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    border:1px  solid rgb(93, 0, 180);
+    background-color: rgb(227, 206, 247);
+    color: rgb(93, 0, 180);
+    padding: 10px;
+}
